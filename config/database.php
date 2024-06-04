@@ -111,7 +111,7 @@ return [
 
         'mongodb' => [
             'driver'   => 'mongodb',
-            'dsn'      => env('DB_DSN', 'mongodb+srv://wescleysilvacas:0%26s%23Oox%2603Jt@unifor.krcuehy.mongodb.net/?retryWrites=true&w=majority&appName=unifor'),
+            'dsn'      => env('DB_DSN', ''),
             'database' => env('DB_DATABASE', 'unifor'),
             'options'  => [
                 'database' => 'admin',
